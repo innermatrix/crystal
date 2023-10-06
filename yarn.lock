@@ -11192,6 +11192,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"format-graphql@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "format-graphql@npm:1.4.0"
+  dependencies:
+    graphql: "npm:^15.1.0"
+    yargs: "npm:^15.3.1"
+  bin:
+    format-graphql: dist/bin/index.js
+  checksum: 05437aeff4ec68a10d46b4e89b916aaff8da54f0ce02427925d2cb7448b5cd2e6af8c21c56f1b1256684015b1ef2acc34fb0838d83a339b45beacaa27caddf1b
+  languageName: node
+  linkType: hard
+
 "formdata-polyfill@npm:^4.0.10":
   version: 4.0.10
   resolution: "formdata-polyfill@npm:4.0.10"
@@ -12129,6 +12141,13 @@ __metadata:
   version: 16.1.0-experimental-stream-defer.6
   resolution: "graphql@npm:16.1.0-experimental-stream-defer.6"
   checksum: 8e280798cf5738f2013c30891fd4f720d5e0fa1b074061176597af95db7779bc435d981fd7da31b89c10c84b35ce9b3377e2f7891be62d63386bebcf45f3c2d9
+  languageName: node
+  linkType: hard
+
+"graphql@npm:^15.1.0":
+  version: 15.8.0
+  resolution: "graphql@npm:15.8.0"
+  checksum: e09073b981965b99d22717ed219c55086375075db0870a5a934e1d777d645a155f10141dfe1d0d9713b35765790fb257d6d198d75a53e02ba0126f16befc899c
   languageName: node
   linkType: hard
 
@@ -18869,6 +18888,7 @@ __metadata:
     eslint-plugin-simple-import-sort: "npm:^10.0.0"
     eslint-plugin-tsdoc: "npm:^0.2.17"
     eslint_d: "npm:^12.2.1"
+    format-graphql: "npm:^1.4.0"
     glob: "npm:^10.3.4"
     graphql: "npm:16.1.0-experimental-stream-defer.6"
     jest: "npm:^29.6.4"
@@ -22268,7 +22288,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^15.1.0":
+"yargs@npm:^15.1.0, yargs@npm:^15.3.1":
   version: 15.4.1
   resolution: "yargs@npm:15.4.1"
   dependencies:
