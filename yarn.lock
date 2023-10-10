@@ -17492,6 +17492,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postgraphile-plugin-connection-filter@npm:^3.0.0-beta.1":
+  version: 3.0.0-beta.1
+  resolution: "postgraphile-plugin-connection-filter@npm:3.0.0-beta.1"
+  dependencies:
+    tslib: "npm:^2.5.0"
+  checksum: 7ad5e155226b5bf6f852daea2f19f6d03fcdbc3ef54f36ad75716a8977d4c7d286925a1fd83c1dda53c772fd2c7433e12caff5973294ec083c6d8aa306e99e25
+  languageName: node
+  linkType: hard
+
 "postgraphile@workspace:^, postgraphile@workspace:postgraphile/postgraphile":
   version: 0.0.0-use.local
   resolution: "postgraphile@workspace:postgraphile/postgraphile"
@@ -18894,6 +18903,7 @@ __metadata:
     jest: "npm:^29.6.4"
     mock-fs: "npm:^5.2.0"
     pg: "npm:^8.11.3"
+    postgraphile-plugin-connection-filter: "npm:^3.0.0-beta.1"
     prettier: "npm:^3.0.3"
     rimraf: "npm:^5.0.1"
     typedoc: "npm:^0.25.0"

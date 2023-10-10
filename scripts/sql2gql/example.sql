@@ -1,4 +1,8 @@
-create type e as enum ('E1');
-comment on type e is '@name f';
+CREATE TABLE subscription_statuses (
+    subscription_status text PRIMARY KEY
+);
 
-create table t(c1 e);
+CREATE TABLE member_subscriptions (
+    subscription_status text NOT NULL DEFAULT 'ACTIVE'::text REFERENCES subscription_statuses(subscription_status)
+);
+
