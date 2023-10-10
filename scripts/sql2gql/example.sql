@@ -1,4 +1,12 @@
-create type e as enum ('E1');
-comment on type e is '@name f';
+CREATE TABLE subscription_types (
+    subscription_type text PRIMARY KEY
+);
 
-create table t(c1 e);
+CREATE TABLE subscription_pricing (
+    subscription_type text REFERENCES subscription_types(subscription_type)
+);
+
+COMMENT ON TABLE subscription_pricing IS '@omit create,update,delete';
+
+comment on table subscription_pricing is E'@omit create,update,delete';
+
